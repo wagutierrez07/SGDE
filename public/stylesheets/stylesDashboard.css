@@ -55,7 +55,7 @@ body {
     width: var(--nav-largo);
     height: 100vh;
     background-color: var(--main-color);
-    background-image: url('../img/OndaArriba.png');
+    background-image: url('../images/assets/img/OndaArriba.png');
     background-size: 180% calc(var(--header-ancho) + 28rem);
     background-position-x: -20px;
     background-repeat: no-repeat;
@@ -238,7 +238,7 @@ body {
     width: var(--nav-largo);
     height: 100vh;
     background-color: var(--main-color);
-    background-image: url('../img/OndaArriba.png');
+	background-image: url('../images/assets/img/OndaArriba.png');
     background-size: 180% calc(var(--header-ancho) + 28rem);
     background-position-x: -20px;
     background-repeat: no-repeat;
