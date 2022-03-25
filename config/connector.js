@@ -5,12 +5,12 @@ const client = new Client({
     user: "postgres",
     port: 5432,
     password: 123456,
-    database: "msproject"
+    database: "inventario"
 })
 
 client.connect();
 
-client.query('select * from bands', (err, res)=>{
+client.query('select * from rol', (err, res)=>{
     if (!err) {
         console.log(res.rows);
     }else{
